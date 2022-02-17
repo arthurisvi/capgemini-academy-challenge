@@ -1,8 +1,22 @@
 package com.capgemini;
 
+/**
+* Classe utilitária relacionada a validação de senha forte
+* @author Arthur Isvi
+* @version 1.0.0
+*/
 public class Password {
     
-    static int validatePassword(String password){
+/**
+* Método que recebe uma String que é uma senha
+* e retorna um int que representa a quantidade
+* de caracteres necessários para tornar a senha forte.
+* @param password Senha inserida.
+* @return Contador com a quantidade de caracteres necessários.
+* @exception InvalidStringNumberException Se algum parâmetro não
+* representar uma String.
+*/
+    public static int validatePassword(String password){
         int minCharacters = 6;
         int requiredCharacters = 0;
         int specialChar = 0;

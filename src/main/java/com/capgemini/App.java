@@ -1,4 +1,9 @@
 package com.capgemini;
+/**
+* Classe principal da aplicação
+* @author Arthur Isvi
+* @version 1.0.0
+*/
 public class App 
 {
     public static void main( String[] args )

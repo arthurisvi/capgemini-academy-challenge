@@ -3,10 +3,23 @@ package com.capgemini;
 import java.util.Arrays;
 import java.util.HashMap;
 
+/**
+* Classe utilitária relacionada a obter um contador de Anagrama
+* @author Arthur Isvi
+* @version 1.0.0
+*/
 public class Anagram {
 
-
-    static HashMap<String, Integer> getAllSubstrings(String word){
+/**
+* Método que recebe uma String que será uma palavra
+* e retorna um HashMap que tem um elemento String
+* e uma chave do tipo Integer.
+* @param word Palavra inserida.
+* @return Lista com todas as substrings da palavra recebida.
+* @exception InvalidStringNumberException Se o parâmetro não
+* representar uma String.
+*/
+    public static HashMap<String, Integer> getAllSubstrings(String word){
 
         HashMap<String, Integer> substrings= new HashMap<>();
 
@@ -25,8 +38,17 @@ public class Anagram {
 
        return substrings;
     }
-
-    static int countAnagrams(HashMap<String, Integer> substrings){
+   
+/**
+* Método que recebe um HashMap (lista de substrings)
+* e retorna um inteiro que representa o contador da
+* quantidade de anagramas naquela lista.
+* @param substrings Lista de substrings.
+* @return Quantidade de anagramas presentes na lista.
+* @exception InvalidStringNumberException Se o parâmetro não
+* representar um HashMap.
+*/
+    public static int countAnagrams(HashMap<String, Integer> substrings){
         int count = 0;
 
         for(String key: substrings.keySet()){
@@ -37,7 +59,7 @@ public class Anagram {
         return count;
     }
 
-    static int getAnagramsQuantity(String word){
+    public static int getAnagramsQuantity(String word){
 
         HashMap<String, Integer> listSubstrings = getAllSubstrings(word);
         
