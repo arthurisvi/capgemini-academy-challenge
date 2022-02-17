@@ -1,0 +1,22 @@
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Workspace/capgemini/desafio-capgemini/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Workspace/capgemini/desafio-capgemini/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'desafio-capgemini 1.0-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' 'C:/Workspace/capgemini/desafio-capgemini/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'desafio-capgemini 1.0-SNAPSHOT API'
