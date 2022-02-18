@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.capgemini","l":"Anagram"},{"p":"com.capgemini","l":"App"},{"p":"com.capgemini","l":"Ladder"},{"p":"com.capgemini","l":"Password"}]
