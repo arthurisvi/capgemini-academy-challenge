@@ -33,8 +33,9 @@ Procure pelas propriedades abaixo e altere o valor entre as tags para a versão 
 
 ### Documentação do projeto :file_folder:
 ```
-1. Para ter acesso a documentação da aplicação, basta abrir o arquivo index.html que está na pasta apidocs
-2. Caminho até o arquivo: target -> site -> apidocs
+1. Para ter acesso a documentação da aplicação, visite o repositório [https://github.com/arthurisvi/documentation-capgemini-challenge]
+2. Clone o projeto do repositório mencionado
+3. Na pasta site, entre no apidocs e abra o index.html
 ```
 
 ### Tecnologias utilizadas :man_technologist:
