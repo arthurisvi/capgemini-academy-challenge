@@ -18,7 +18,6 @@ public class Password {
 */
     public static int validatePassword(String password){
         int minCharacters = 6;
-        int requiredCharacters = 0;
         int specialChar = 0;
         int digit = 0;
         int upperCase = 0;
@@ -30,10 +29,6 @@ public class Password {
             return minCharacters;
         }else{
             for (int i = 0; i< password.length(); i++){
-                if (password.length() < minCharacters){
-                    requiredCharacters =  minCharacters - password.length();
-                    return requiredCharacters;
-                }else{
                     char character = password.charAt(i);
                   
                     for (int j = 0; j<verify.length; j++){
@@ -53,7 +48,6 @@ public class Password {
                     if (Character.isLowerCase(character)){
                         lowerCase++;
                     }  
-                }
             }
     
             if(digit == 0)
@@ -65,6 +59,11 @@ public class Password {
             if (lowerCase == 0)
                 validation++;
 
+            if (password.length() < minCharacters){
+                int differenceToMin = minCharacters - (password.length() + validation);
+                if (password.length() + validation <= minCharacters)
+                    return validation + differenceToMin;
+            }
         }
         return validation;
     }
