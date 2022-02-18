@@ -1,6 +1,6 @@
-## Sobre a aplicação
+## Sobre a aplicação :desktop_computer:
 
-### Como rodar
+### Como rodar :ferris_wheel:
 
 ```
 Requisitos
@@ -25,13 +25,19 @@ Procure pelas propriedades abaixo e altere o valor entre as tags para a versão 
 
 ```
 
-### Como executar os testes unitários
+### Como executar os testes unitários :hammer_and_wrench:
 
 ```
 1. No diretório do projeto, digite o comando 'mvn test'
 ```
 
-### Tecnologias utilizadas
+### Documentação do projeto :file_folder:
+```
+1. Para ter acesso a documentação da aplicação, basta abrir o arquivo index.html que está na pasta apidocs
+2. Caminho até o arquivo: target -> site -> apidocs
+```
+
+### Tecnologias utilizadas :man_technologist:
 
 ```
 • Java
@@ -40,7 +46,7 @@ Procure pelas propriedades abaixo e altere o valor entre as tags para a versão 
 • Javadoc
 ```
 
-## Desafio de Programação - Academia Capgemini
+## Desafio de Programação - Academia Capgemini :memo:
 
 Terceira etapa do processo de seleção para a Academia Capgemini 2022.
 
