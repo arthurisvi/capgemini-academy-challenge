@@ -14,7 +14,7 @@ public class Ladder {
 * @exception InvalidStringNumberException Se o parâmetro não
 * representar um int.
 */
-    public static void printLadder(int n){
+    public static int printLadder(int n){
         int i = 0;
         while(i <= n){
              for(int j = 0;j < n-i;j++){
@@ -26,5 +26,6 @@ public class Ladder {
              i++;
             System.out.println();
       }
+      return i;
      }
 }
