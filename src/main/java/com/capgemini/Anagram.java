@@ -59,11 +59,21 @@ public class Anagram {
         return count;
     }
 
+/**
+* Método que recebe uma palavra e verifica se existe caracteres repetidos,
+* caso nao haja letras duplicadas, retorna zero e nao continua, caso tenha duplicadas,
+* retorna uma chamada a outro metodo 
+* @param word Palavra inserida.
+* @return Metodo com a Quantidade de anagramas presentes na palavra
+* @exception InvalidStringNumberException Se o parâmetro não
+* representar uma String.
+*/
     public static int getAnagramsQuantity(String word){
 
         HashMap<String, Integer> listSubstrings = getAllSubstrings(word);
         
-        return countAnagrams(listSubstrings);
+        if(!(word.length() != word.chars().distinct().count())) return 0;
+        else return countAnagrams(listSubstrings);
     }
 
     
