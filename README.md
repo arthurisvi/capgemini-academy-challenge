@@ -1,3 +1,33 @@
+## Sobre a aplicação
+
+### Como rodar
+```
+Requisitos
+
+Para conseguir rodar o projeto, você precisa ter instalado em seu PC:
+
+• Java
+• Maven 
+
+Passo a passo
+
+1. Clone o projeto na sua máquina
+2. Abra a pasta do projeto na IDE de sua preferência
+3. Rode o comando 'mvn compile' para compilar o código fonte da aplicação
+4. Execute o código a partir da class App.java, onde se encontra o método main
+```
+### Como executar os testes unitários
+```
+1. No diretório do projeto, digite o comando 'mvn test'
+```
+### Tecnologias utilizadas
+```
+• Java 
+• Maven
+• Junit
+• Javadoc
+```
+
 ## Desafio de Programação - Academia Capgemini
 
 Terceira etapa do processo de seleção para a Academia Capgemini 2022.
